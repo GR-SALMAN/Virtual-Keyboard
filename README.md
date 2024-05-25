@@ -2,6 +2,9 @@
 
 A stylish and functional virtual keyboard built with HTML, CSS, and JavaScript. This keyboard uses the Orbitron font and provides an interactive typing experience with sound effects.
 
+<div align="center">
+  <img src="keyboard.png" alt="Keyboard Screenshot">
+</div>
 ## Features
 
 - **Interactive Keys**: Clickable keys that mimic a real keyboard.
