@@ -1,0 +1,128 @@
+body{
+    width: 1080px;
+    /* height: 100% */
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background: rgb(84,48,226);
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(84,48,226,1) 0%, rgba(6,29,73,1) 81%);
+ }
+
+.textBox{
+    margin: 0 auto;
+    margin: 0 auto;
+    width: 60rem;
+    height: auto; /*When the enter button is pressed the height will incrrease */
+    border-radius:5px;
+    border: 2px rgb(0, 0, 0) solid;
+    padding: 1rem;
+    margin-top: 100px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column; /* To make enter press action visible*/
+    overflow: auto;
+}
+
+
+
+.keyboard{
+    margin: 0 auto;
+    margin: 0 auto;
+    color: #05eeff ;
+    width: 55rem;
+    height: 15rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow: hidden;
+    flex-wrap: wrap;
+    /*blocking the text selection in keyboard area*/
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   /* background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,15,133,1) 48%, rgba(0,212,255,1) 100%); */
+}
+.row{
+    margin: 0 auto;
+    margin: 0 auto;
+    width: inherit;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+
+.key, button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: #05eeff 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 3px;
+    text-align: center;
+    font-size: larger;
+    /* box-shadow:rgb(255, 255, 255) 0px 1px 15px; */
+}
+.key:hover {
+    background-color: #05eeff;
+    color: black;
+    cursor: pointer;
+}
+
+.key:active{
+    box-shadow: 2px 2px 5px #05eeff;
+}
+
+.space{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: #05eeff 1px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.Backspace:hover i{
+    color: black;
+} /* The key selector made the icon color blue but the hover color will be black to make it even more better */
+
+.UpperCase{
+    text-transform: uppercase;
+    color: black;
+    background-color: #05eeff;
+}
+
+.textBox:focus{
+    border: #05eeff 2px solid;
+}
+
+.textBox{
+    box-sizing: border-box;
+    transition: .5s;
+    outline: none;
+  }
