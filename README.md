@@ -26,7 +26,7 @@ A stylish and functional virtual keyboard built with HTML, CSS, and JavaScript. 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/virtual-keyboard.git
+git clone https://github.com/GR-SALMAN/Virtual-keyboard.git
 cd virtual-keyboard
 ```
 ### Open the Project
